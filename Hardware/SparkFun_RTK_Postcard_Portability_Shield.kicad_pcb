@@ -6,8 +6,10 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
+		(title "SparkFun Portability Shield")
+		(date "2024-09-25")
 		(comment 1 "Designed by: N. Seidle")
 	)
 	(layers
@@ -409,6 +411,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -420,6 +423,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7946,7 +7950,7 @@
 		(at 145.0975 114.935 180)
 		(tags "SparkFun")
 		(property "Reference" "U3"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "670e0d8b-5edc-49a4-a21a-2b2ecb9820f3")
 			(effects
@@ -7959,7 +7963,7 @@
 			)
 		)
 		(property "Value" "MCP73831"
-			(at 0 2.3 360)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "19b57946-8eee-4b72-afaa-a5b6df6928cb")
 			(effects
@@ -17177,6 +17181,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -17189,6 +17194,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -18053,6 +18059,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -18065,6 +18072,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -20944,7 +20952,7 @@
 		(at 160.655 81.915 180)
 		(tags "SparkFun")
 		(property "Reference" "JP2"
-			(at 0 1.143 360)
+			(at 0 1.143 0)
 			(layer "B.Fab")
 			(uuid "baa8f6ce-6a2a-46fb-b2c3-85155ee1a1c7")
 			(effects
@@ -20957,7 +20965,7 @@
 			)
 		)
 		(property "Value" "D/C"
-			(at 0 -1.143 360)
+			(at 0 -1.143 0)
 			(layer "B.Fab")
 			(uuid "7a1648c7-f7f8-40e8-aafb-62eb2118c532")
 			(effects
