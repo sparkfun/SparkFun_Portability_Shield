@@ -691,6 +691,1049 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Connector:GNSS_Shield_10"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1x10"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:1x10_Locking"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun GNSS Shield"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNSS_Shield_10_1_1"
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 11.43)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "AIO"
+					(at 2.54 -2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "EN"
+					(at 2.54 7.62 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "GND"
+					(at 2.54 -12.7 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 -10.16 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 0 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 5.08 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 10.16 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "SCL"
+					(at 2.54 -5.08 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "SDA"
+					(at 2.54 -7.62 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-Connector:GNSS_Shield_9"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1x09"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:1x09_Locking"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun GNSS Shield"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNSS_Shield_9_1_1"
+				(rectangle
+					(start -1.27 -11.43)
+					(end 5.08 11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.287)
+					(end 0 -10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.747)
+					(end 0 -7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -5.207)
+					(end 0 -4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.667)
+					(end 0 -2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -0.127)
+					(end 0 0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.413)
+					(end 0 2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 4.953)
+					(end 0 5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.493)
+					(end 0 7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.033)
+					(end 0 10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "5V"
+					(at 2.54 7.62 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "GND"
+					(at 2.54 10.16 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "NC"
+					(at 2.54 5.08 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "PICO"
+					(at 2.54 -5.08 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "POCI"
+					(at 2.54 -7.62 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "RX"
+					(at 2.54 0 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "SCK"
+					(at 2.54 -10.16 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "TX\n"
+					(at 2.54 2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "~{CS}"
+					(at 2.54 -2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-DiscreteSemi:D_Schottky_3A_10V_0.28V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT60A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SOD-323"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/bat60aseries.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113def70c9304a9"
+				(at 1.27 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "DIO-14072"
+				(at 0 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IMax" "3A"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VDrop" "0.28V"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VMax" "10V"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun diode Schottky BAT60"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_3A_10V_0.28V_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_3A_10V_0.28V_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-IC-Power:MAX17048"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2343,7 +3386,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Resistor:10k_0603"
+		(symbol "SparkFun-Resistor:100k_0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2359,7 +3402,7 @@
 					)
 				)
 			)
-			(property "Value" "10k"
+			(property "Value" "100k"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -2394,7 +3437,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "RES-00824"
+			(property "PROD_ID" "RES-07828"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -2421,7 +3464,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10k_0603_0_1"
+			(symbol "100k_0603_0_1"
 				(polyline
 					(pts
 						(xy -2.286 0) (xy -2.54 0)
@@ -2483,7 +3526,7 @@
 					)
 				)
 			)
-			(symbol "10k_0603_1_1"
+			(symbol "100k_0603_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
@@ -2984,6 +4027,12 @@
 		(uuid "054c9b99-9fcf-49cd-b105-961f939b6d7d")
 	)
 	(junction
+		(at 99.06 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2865db-7ea3-4f4d-bf47-ff8f1d824d08")
+	)
+	(junction
 		(at 182.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3016,6 +4065,26 @@
 	(no_connect
 		(at 234.95 125.73)
 		(uuid "48fedfe4-9a14-4e4e-bc3b-30cfe3fdfd87")
+	)
+	(no_connect
+		(at 71.12 127)
+		(uuid "4cbc2a90-0a82-4ce9-b3b0-737f7b4341aa")
+	)
+	(no_connect
+		(at 71.12 119.38)
+		(uuid "6ffc0929-c8ea-474d-9910-0e08e4046c54")
+	)
+	(no_connect
+		(at 71.12 124.46)
+		(uuid "b8b44c38-4ea5-4f18-ad7c-dd2af1f5d31d")
+	)
+	(no_connect
+		(at 71.12 139.7)
+		(uuid "d0440452-b1a9-4bf3-bd4b-8a31e07a46ef")
+	)
+	(no_connect
+		(at 97.79 137.16)
+		(uuid "d4bf5d5c-9227-4df2-94b8-56a2ee916832")
 	)
 	(wire
 		(pts
@@ -3069,6 +4138,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 127) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0967edb9-196a-4769-bd26-21c0a167c91c")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92) (xy 97.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f771a4-7ccc-4129-8082-ed9795af3fa9")
+	)
+	(wire
+		(pts
 			(xy 215.9 57.15) (xy 227.33 57.15)
 		)
 		(stroke
@@ -3099,6 +4188,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 119.38) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac425b8-f59e-4d7f-8362-27fd814e685b")
+	)
+	(wire
+		(pts
 			(xy 72.39 57.15) (xy 72.39 58.42)
 		)
 		(stroke
@@ -3126,6 +4225,16 @@
 			(type dash)
 		)
 		(uuid "2925826c-9998-427c-831f-b583773f3250")
+	)
+	(wire
+		(pts
+			(xy 110.49 109.22) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a28b56f-42df-4ed6-956c-ccd369b086d6")
 	)
 	(wire
 		(pts
@@ -3166,6 +4275,26 @@
 			(type default)
 		)
 		(uuid "3b3a1ce5-f702-4dfb-9c24-6175f68e450a")
+	)
+	(wire
+		(pts
+			(xy 99.06 142.24) (xy 99.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebf805b-d679-4fc4-8d2f-21fbbe2732cc")
+	)
+	(wire
+		(pts
+			(xy 110.49 118.11) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d667e7-6d84-49c7-ad52-cb9a5b6bbaf4")
 	)
 	(wire
 		(pts
@@ -3249,6 +4378,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 119.38) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bad3b1-a939-4ec3-a5bf-3298fe4b0583")
+	)
+	(wire
+		(pts
 			(xy 80.01 46.99) (xy 81.28 46.99)
 		)
 		(stroke
@@ -3289,6 +4428,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 134.62) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a36cd94-c42f-46c1-ad9c-9858f5876ded")
+	)
+	(wire
+		(pts
 			(xy 215.9 55.88) (xy 215.9 57.15)
 		)
 		(stroke
@@ -3296,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "8b495b04-e333-42f1-b5ab-0bf65baf7752")
+	)
+	(wire
+		(pts
+			(xy 72.39 121.92) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e72f1d3-b1df-4f01-82e8-8ec586f94517")
 	)
 	(wire
 		(pts
@@ -3316,6 +4475,16 @@
 			(type default)
 		)
 		(uuid "93751b5f-8378-4c2e-8113-67bc58343030")
+	)
+	(wire
+		(pts
+			(xy 100.33 132.08) (xy 97.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964178a1-347e-4188-b223-517d5c05991c")
 	)
 	(wire
 		(pts
@@ -3379,6 +4548,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd431b85-9af1-4066-9ae5-1db264d20c75")
+	)
+	(wire
+		(pts
 			(xy 199.39 127) (xy 199.39 125.73)
 		)
 		(stroke
@@ -3399,6 +4578,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 137.16) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c509ae8e-2037-441a-82ed-c5a66c295b25")
+	)
+	(wire
+		(pts
 			(xy 58.42 49.53) (xy 64.77 49.53)
 		)
 		(stroke
@@ -3416,6 +4605,16 @@
 			(type default)
 		)
 		(uuid "c7743fdd-43cd-4488-b24e-047ce1d94301")
+	)
+	(wire
+		(pts
+			(xy 72.39 132.08) (xy 71.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99ace51-caf7-44dd-b8a9-a62d983af3da")
 	)
 	(wire
 		(pts
@@ -3459,6 +4658,36 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 129.54) (xy 97.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2398c8b-34fd-4096-869b-66e5f1e8e8c2")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28db823-5914-4281-bd7d-bff99ccac782")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 72.39 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bfbed4-4660-4ab4-907b-9de76c82b328")
+	)
+	(wire
+		(pts
 			(xy 215.9 46.99) (xy 215.9 48.26)
 		)
 		(stroke
@@ -3476,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "d60f901f-f355-4b5a-9a17-c8e13eb82fb7")
+	)
+	(wire
+		(pts
+			(xy 97.79 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b06302-7c0b-4bdb-a438-3787174c0fb6")
 	)
 	(wire
 		(pts
@@ -3539,6 +4778,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 142.24) (xy 99.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66c12fb-f062-4d95-a63e-951725024a7c")
+	)
+	(wire
+		(pts
 			(xy 36.83 46.99) (xy 36.83 48.26)
 		)
 		(stroke
@@ -3549,6 +4798,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 142.24) (xy 72.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1b48f4-433a-4a9a-8e04-3066bcefb904")
+	)
+	(wire
+		(pts
 			(xy 36.83 55.88) (xy 36.83 57.15)
 		)
 		(stroke
@@ -3556,6 +4815,16 @@
 			(type default)
 		)
 		(uuid "efc4472a-94af-4e1f-b479-c3156a34a6c8")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46) (xy 97.79 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05b185a-2464-4755-b8eb-dcfccfb57d9a")
 	)
 	(wire
 		(pts
@@ -3618,6 +4887,27 @@
 		)
 		(uuid "82916b31-0660-4925-9a9e-60c257a0f90e")
 	)
+	(text "Shield Connectors"
+		(exclude_from_sim no)
+		(at 80.01 96.52 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "9032ab0c-ba66-4c0b-a7c1-e26de7fbc03b")
+	)
+	(text "If 5V is present, LiPo charging commences.\nIf 5V is absent, battery provides VBATT to mainboard.\n3.3V is not provided to mainboard.\n5V/VBATT powers local 3.3V_P.\n"
+		(exclude_from_sim no)
+		(at 58.42 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a84756a9-fe07-487f-bacc-de766e2204f2")
+	)
 	(text "7-bit unshifted I²C address: 0x36\n"
 		(exclude_from_sim no)
 		(at 206.248 139.954 0)
@@ -3639,6 +4929,50 @@
 		)
 		(uuid "c9d875e3-bf1f-4368-ba49-590d23f53045")
 	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 72.39 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1691e87e-db1a-481d-bd89-880b4a2b6816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.3623 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Main-TX"
+		(shape input)
+		(at 100.33 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "257f735f-a984-4e9c-8eac-fc19e3531164")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.4189 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 236.22 118.11 0)
@@ -3652,6 +4986,138 @@
 		(uuid "44396db2-55bd-4000-b7db-221a8e59e18f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7733 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 73.66 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f67baf8-62e0-45d6-ad38-31d9d70228dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2133 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHLD_PICO"
+		(shape input)
+		(at 100.33 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59878a39-1494-4a54-ac84-7dbc4d6aaa41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.5962 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHLD_SCK"
+		(shape input)
+		(at 100.33 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6651d157-7418-42ef-9bfe-02898b70cb37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8704 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Main-RX"
+		(shape input)
+		(at 100.33 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68b11ec1-eb7f-4dad-989d-c0e907d0ce8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.7213 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHLD_~{CS}"
+		(shape input)
+		(at 100.33 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99b2b5d2-dbd9-433d-9583-56599bb7731a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.6004 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_EN"
+		(shape input)
+		(at 72.39 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6594eaf-7ce3-474f-a060-729491a92ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.3299 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,6 +5162,50 @@
 		(uuid "ca276e2d-1cdb-4071-b54a-07fe025cdfe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7128 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHLD_POCI"
+		(shape input)
+		(at 100.33 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e018025e-b9b7-46f1-bf5b-35431d223507")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.5962 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 73.66 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee06770b-f249-41c6-96d0-42207ebb89c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.1528 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,6 +5372,72 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 99.06 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10ebffa7-f426-4c87-9eb6-b14858079b4b")
+		(property "Reference" "#PWR09"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6920781-1041-43a3-b7a6-b9e60c55a2d4")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 204.47 52.07 0)
 		(mirror y)
 		(unit 1)
@@ -4019,6 +5595,100 @@
 			(project "SparkFun_RTK_Postcard_Portable_Shield"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:GNSS_Shield_10")
+		(at 66.04 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "213672a8-f77a-4dba-baea-69e0a7b84f54")
+		(property "Reference" "J2"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1x10"
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x10_Locking"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "5a2e21ca-d454-4120-97ad-3b6404515bd9")
+		)
+		(pin "3"
+			(uuid "a84ffdc2-2a7d-4d09-bc92-188a88c9230a")
+		)
+		(pin "1"
+			(uuid "90a383c6-854f-423a-8d25-83d6699f8c28")
+		)
+		(pin "5"
+			(uuid "a0f53235-e9ec-4cfa-951c-c3a1e616c4ed")
+		)
+		(pin "4"
+			(uuid "b509aa7c-36a6-40f7-bc0e-078349b32947")
+		)
+		(pin "6"
+			(uuid "edbef0de-a8f0-4db7-825d-3f06858ea8a4")
+		)
+		(pin "8"
+			(uuid "15bdad96-9e99-4b2e-9b7f-878d2d5684b9")
+		)
+		(pin "9"
+			(uuid "4bf974a2-b9c3-4d14-8b0b-ae32986b6525")
+		)
+		(pin "2"
+			(uuid "df4a631a-01b8-427b-9e1c-30fb586b21bb")
+		)
+		(pin "7"
+			(uuid "b768b024-cd3b-4f98-a3b4-80cf31b893a4")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4393,6 +6063,73 @@
 			(project "SparkFun_RTK_Postcard_Portable_Shield"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:VBATT")
+		(at 110.49 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39423b64-b2f9-4ca1-bd99-30bfa36657d0")
+		(property "Reference" "#PWR032"
+			(at 110.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBATT\""
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b5c895-be4c-4e3e-b761-b380a5faa09e")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4948,6 +6685,73 @@
 			(project "SparkFun_RTK_Postcard_Portable_Shield"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 99.06 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e6d44d3-fedf-4994-91eb-1949af9f8718")
+		(property "Reference" "#PWR08"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 99.06 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c94d48e7-c39e-424b-af15-bb63d0d39cce")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5627,6 +7431,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 72.39 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5c4c222-c5c2-4773-ab2a-0ecfa9901260")
+		(property "Reference" "#PWR04"
+			(at 72.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd746ef9-c175-466e-a83f-7f7747c374db")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x02_JST_2mm_LiPo")
 		(at 170.18 40.64 0)
 		(mirror y)
@@ -6099,7 +7969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:10k_0603")
+		(lib_id "SparkFun-Resistor:100k_0603")
 		(at 58.42 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6117,7 +7987,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 60.96 43.1799 90)
 			(effects
 				(font
@@ -6153,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-00824"
+		(property "PROD_ID" "RES-07828"
 			(at 64.77 41.91 0)
 			(effects
 				(font
@@ -6172,6 +8042,200 @@
 			(project "SparkFun_RTK_Postcard_Portable_Shield"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:D_Schottky_3A_10V_0.28V")
+		(at 110.49 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b942dc-e831-4b58-8202-853a3a529a9a")
+		(property "Reference" "D2"
+			(at 107.95 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT60A"
+			(at 107.95 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOD-323"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/bat60aseries.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113def70c9304a9"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-14072"
+			(at 99.822 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDrop" "0.28V"
+			(at 107.95 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "VMax" "10V"
+			(at 107.95 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "IMax" "3A"
+			(at 107.95 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A"
+			(uuid "02777bef-cfe4-4dd5-9ac2-a6b8a21319e9")
+		)
+		(pin "C"
+			(uuid "2237db2e-8cc7-4a00-9474-03d8a84e2075")
+		)
+		(instances
+			(project "SparkFun_RTK_Postcard_Portable_Shield"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:GNSS_Shield_9")
+		(at 92.71 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d665ebd3-3c96-4f07-bc79-e76e6cb71aaa")
+		(property "Reference" "J4"
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1x09"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x09_Locking"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a728882-32b2-49af-a1d7-a3062b6261df")
+		)
+		(pin "1"
+			(uuid "695d980f-4f89-49b1-94ea-87a5cac1fa6f")
+		)
+		(pin "4"
+			(uuid "8e90f82a-57f9-435f-998e-d0ac5f6110c8")
+		)
+		(pin "5"
+			(uuid "d51a9790-752b-4b6a-9737-d45d2b910878")
+		)
+		(pin "3"
+			(uuid "30fe16c0-1212-4136-a778-dedee42c7dee")
+		)
+		(pin "9"
+			(uuid "8b0cea87-db24-4cc4-90dd-7cd24496977c")
+		)
+		(pin "7"
+			(uuid "6e3710d1-0e07-4de4-a5d8-a6919505b998")
+		)
+		(pin "6"
+			(uuid "fe8f3e23-6eba-4ece-a5ba-675dc1ee15ba")
+		)
+		(pin "8"
+			(uuid "935fb118-66d0-414d-a4c6-8f12aa78e5b9")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/8c2b7f87-a176-4a70-8733-f0800b4ff752"
+					(reference "J4")
 					(unit 1)
 				)
 			)
