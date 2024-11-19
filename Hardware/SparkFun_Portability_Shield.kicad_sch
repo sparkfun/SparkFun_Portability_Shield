@@ -5,7 +5,7 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "RTK Postcard Portable Shield")
+		(title "SparkFun Portable Shield")
 		(date "2024-09-19")
 		(rev "v10")
 		(comment 1 "Designed by: N. Seidle")
@@ -3021,7 +3021,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-IC-Special-Function:PCA9557PW"
+		(symbol "SparkFun-IC-Special-Function:PCA9554PW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3034,7 +3034,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PCA9557PW"
+			(property "Value" "PCA9554PW"
 				(at 2.54 11.43 0)
 				(effects
 					(font
@@ -3052,7 +3052,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
 				(at 0 -20.955 0)
 				(effects
 					(font
@@ -3061,7 +3061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-bit I2C-bus and SMBus I/O port with reset, TSSOP-16"
+			(property "Description" "8-bit I2C-bus and SMBus I/O port with interrupt, TSSOP-16"
 				(at 0 -18.415 0)
 				(effects
 					(font
@@ -3070,7 +3070,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-23355"
+			(property "PROD_ID" "IC-23589"
 				(at 0 -23.495 0)
 				(effects
 					(font
@@ -3079,7 +3079,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun 8 pin SMBUS I2C Expander"
+			(property "ki_keywords" "SparkFun TCA9557 8 pin SMBUS I2C Expander with Reset"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3097,7 +3097,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCA9557PW_0_1"
+			(symbol "PCA9554PW_0_1"
 				(rectangle
 					(start -7.62 -12.7)
 					(end 7.62 10.16)
@@ -3110,11 +3110,11 @@
 					)
 				)
 			)
-			(symbol "PCA9557PW_1_1"
+			(symbol "PCA9554PW_1_1"
 				(pin input line
-					(at -10.16 7.62 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "SCL"
+					(name "A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3122,42 +3122,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3175,7 +3139,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3193,7 +3157,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3211,7 +3175,25 @@
 							)
 						)
 					)
-					(number "14"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3220,9 +3202,27 @@
 					)
 				)
 				(pin input line
-					(at -10.16 2.54 0)
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "~{RESET}"
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3255,42 +3255,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -7.62 0)
 					(length 2.54)
@@ -3301,7 +3265,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3319,7 +3283,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3337,7 +3301,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3349,6 +3313,42 @@
 					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3382,9 +3382,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "IO2"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4605,7 +4605,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Switch:Navigation_5Way_SMD_9.9x9.9mm"
+		(symbol "SparkFun-Switch:Navigation_5Way_SMD_7.5x7.5mm"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -4628,7 +4628,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Switch:Navigation_SMD_9.9x9.9mm"
+			(property "Footprint" "SparkFun-Switch:Navigation_SMD_7.5x7.5mm"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -4637,7 +4637,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/c/f/a/b/d/Korean-Hroparts-Elec-K1-5202UA-01.pdf"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -4655,7 +4655,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "SWCH-12265"
+			(property "PROD_ID" "SWCH-09905"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -4664,16 +4664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfg Part#" ""
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun Navigation Directional Pad 5-way Momentary push switch lever button D-Pad"
+			(property "ki_keywords" "SparkFun Navigation Directional Pad 5-way Momentary with Post push switch lever button D-Pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4682,7 +4673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Navigation_5Way_SMD_9.9x9.9mm_1_0"
+			(symbol "Navigation_5Way_SMD_7.5x7.5mm_1_0"
 				(polyline
 					(pts
 						(xy 1.5178 8.6159) (xy 1.5923 8.6104) (xy 1.6661 8.6013) (xy 1.739 8.5888) (xy 1.811 8.573) (xy 1.7984 8.5872)
@@ -4882,7 +4873,7 @@
 					)
 				)
 			)
-			(symbol "Navigation_5Way_SMD_9.9x9.9mm_1_1"
+			(symbol "Navigation_5Way_SMD_7.5x7.5mm_1_1"
 				(rectangle
 					(start -9.525 9.525)
 					(end 9.525 -9.525)
@@ -4919,9 +4910,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 11.43 270)
+					(at -11.43 0 0)
 					(length 1.905)
-					(name "Up"
+					(name "Left"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4946,61 +4937,7 @@
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 1.905)
-					(name "Right"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -8.89 0)
-					(length 1.905) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 8.89 180)
-					(length 1.905)
-					(name "Center"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5018,6 +4955,42 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 1.905)
+					(name "Right"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 8.89 180)
+					(length 1.905)
+					(name "Center"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "5"
 						(effects
 							(font
@@ -5027,9 +5000,9 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -8.89 0)
-					(length 1.905) hide
-					(name "GND"
+					(at 0 11.43 270)
+					(length 1.905)
+					(name "Up"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5044,17 +5017,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -11.43 0 0)
-					(length 1.905)
-					(name "Left"
+				(pin no_connect line
+					(at -11.43 -5.08 0)
+					(length 1.905) hide
+					(name "MP1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "MP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5062,35 +5035,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -11.43 -8.89 0)
+				(pin no_connect line
+					(at -11.43 -6.35 0)
 					(length 1.905) hide
-					(name "GND"
+					(name "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -8.89 0)
-					(length 1.905) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5364,10 +5319,6 @@
 	(no_connect
 		(at 213.36 100.33)
 		(uuid "6af51657-7c69-40c2-af7a-ef271873ab37")
-	)
-	(no_connect
-		(at 132.08 54.61)
-		(uuid "ac09669b-80f2-4ce2-b6bf-0b999222001b")
 	)
 	(no_connect
 		(at 132.08 59.69)
@@ -6415,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 54.61) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af25d1c6-4764-493e-9d8e-9abd8a0e22af")
+	)
+	(wire
+		(pts
 			(xy 223.52 46.99) (xy 222.25 46.99)
 		)
 		(stroke
@@ -6935,7 +6896,7 @@
 		)
 		(uuid "bd03e8de-16d5-443f-a1d6-32cb1a3199fb")
 	)
-	(text "D-Pad"
+	(text "5-Way\nNavigation Switch"
 		(exclude_from_sim no)
 		(at 44.45 20.32 0)
 		(effects
@@ -7073,6 +7034,28 @@
 			)
 		)
 	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 133.35 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14184104-4387-46f3-884f-7a3eb35393f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.3223 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 115.57 133.35 0)
@@ -7161,7 +7144,7 @@
 			)
 		)
 	)
-	(global_label "~{RESET}_P"
+	(global_label "GPIO_~{INT}"
 		(shape input)
 		(at 110.49 46.99 180)
 		(fields_autoplaced yes)
@@ -7173,7 +7156,7 @@
 		)
 		(uuid "5e46fa35-8f31-4366-8916-ba0eab285e93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5221 46.99 0)
+			(at 99.159 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7254,7 @@
 			)
 		)
 	)
-	(global_label "~{RESET}_P"
+	(global_label "OLED_~{RESET}"
 		(shape input)
 		(at 71.12 118.11 180)
 		(fields_autoplaced yes)
@@ -7283,7 +7266,7 @@
 		)
 		(uuid "d2b92d4a-913e-4022-b7c6-77e530b3ab19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1521 118.11 0)
+			(at 56.6445 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Switch:Navigation_5Way_SMD_9.9x9.9mm")
+		(lib_id "SparkFun-Switch:Navigation_5Way_SMD_7.5x7.5mm")
 		(at 44.45 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9077,7 +9060,7 @@
 		(fields_autoplaced yes)
 		(uuid "470af859-a078-4d3e-9cd3-f79719dc637e")
 		(property "Reference" "SW2"
-			(at 46.1011 58.42 0)
+			(at 46.1011 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9069,7 @@
 			)
 		)
 		(property "Value" "Nav Switch"
-			(at 46.1011 60.96 0)
+			(at 46.1011 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Switch:Navigation_SMD_9.9x9.9mm"
+		(property "Footprint" "SparkFun-Switch:Navigation_SMD_7.5x7.5mm"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -9103,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/c/f/a/b/d/Korean-Hroparts-Elec-K1-5202UA-01.pdf"
 			(at 44.45 67.31 0)
 			(effects
 				(font
@@ -9121,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "SWCH-12265"
+		(property "PROD_ID" "SWCH-09905"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -9139,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
+		(pin "MP1"
 			(uuid "b78fccc6-9a8a-4b79-8395-7c03ceeb20a2")
 		)
 		(pin "1"
@@ -9152,22 +9135,16 @@
 			(uuid "bfb79e01-1ce2-48f9-9c8b-bc4e72638e2a")
 		)
 		(pin "6"
-			(uuid "8a160a8b-6b46-40bf-b704-e70cc90377f5")
-		)
-		(pin "7"
 			(uuid "e39ac693-0224-44b5-9e30-f5d46012a6ed")
 		)
-		(pin "10"
-			(uuid "06211d7f-2452-4677-94c6-52188e821394")
-		)
-		(pin "8"
-			(uuid "8bc773c6-6065-4a0d-b1c9-3cd0f2501b39")
-		)
 		(pin "3"
-			(uuid "25c4c0cf-091d-4cc1-baca-93528dc3482b")
+			(uuid "06211d7f-2452-4677-94c6-52188e821394")
 		)
 		(pin "2"
 			(uuid "2e8a1205-3927-46e6-86f4-b4a695eaec83")
+		)
+		(pin "MP2"
+			(uuid "a76a7ee9-fa3c-42fb-be07-1c56e2dd207d")
 		)
 		(instances
 			(project ""
@@ -11417,7 +11394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-IC-Special-Function:PCA9557PW")
+		(lib_id "SparkFun-IC-Special-Function:PCA9554PW")
 		(at 121.92 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11435,7 +11412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9557PW"
+		(property "Value" "PCA9554PW"
 			(at 124.1141 67.31 0)
 			(effects
 				(font
@@ -11453,7 +11430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tca9554.pdf"
 			(at 121.92 70.485 0)
 			(effects
 				(font
@@ -11462,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit I2C-bus and SMBus I/O port with reset, TSSOP-16"
+		(property "Description" "8-bit I2C-bus and SMBus I/O port with interrupt, TSSOP-16"
 			(at 121.92 67.945 0)
 			(effects
 				(font
@@ -11471,7 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-23355"
+		(property "PROD_ID" "IC-23589"
 			(at 121.92 73.025 0)
 			(effects
 				(font
@@ -12974,7 +12951,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_RTK_Postcard_Portable_Shield"
+			(project "SparkFun_Portability_Shield"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(page "2")
 				)

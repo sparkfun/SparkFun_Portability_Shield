@@ -61,7 +61,7 @@
       "drc_exclusions": [
         "courtyards_overlap|136076821|115781381|15867ade-bc87-4922-9129-417303565686|e97c950a-51ec-468b-ab00-9eb68a9d0bcb",
         "courtyards_overlap|137794999|79613049|7cb5f722-264d-4e51-a218-ec1c11090bd9|f004b21d-64d3-4e9b-825a-51bff478c94c",
-        "courtyards_overlap|177431588|74501735|2694e774-c1ec-4c5e-bbbe-3cc4cf88cc4c|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1"
+        "courtyards_overlap|177431588|74501735|61aa0ed3-558f-4c6d-9e62-dd57c48bd5c1|2694e774-c1ec-4c5e-bbbe-3cc4cf88cc4c"
       ],
       "meta": {
         "version": 2
@@ -104,7 +104,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -137,7 +137,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_RTK_Postcard_Portability_Shield.kicad_pro",
+    "filename": "SparkFun_Portability_Shield.kicad_pro",
     "version": 1
   },
   "net_settings": {
