@@ -6916,7 +6916,7 @@
 		)
 		(uuid "d7a1af7d-383e-429d-84a7-035d7c47a1c7")
 	)
-	(text "7-Bit unshifted I²C Address: 0x18"
+	(text "7-Bit unshifted I²C Address: 0x20"
 		(exclude_from_sim no)
 		(at 121.92 73.66 0)
 		(effects

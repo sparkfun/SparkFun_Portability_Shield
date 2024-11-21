@@ -15812,7 +15812,7 @@
 		(path "/61301b78-3cf8-402e-ace7-cf63f2f7db5b")
 		(sheetname "Root")
 		(sheetfile "SparkFun_Portability_Shield.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
 			(layer "F.Fab")
@@ -19278,7 +19278,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -21515,7 +21515,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -23153,18 +23153,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Material: TG155"
-		(at 224.4725 180.6575 0)
-		(layer "F.Fab")
-		(uuid "3bf58d36-35e5-4597-8a70-5355b862c295")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Outer Copper Weight: 1oz"
 		(at 224.4725 184.4675 0)
 		(layer "F.Fab")
@@ -23213,7 +23201,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Finish: HASL"
+	(gr_text "Finish: Lead-Free HASL"
 		(at 193.9925 186.3725 0)
 		(layer "F.Fab")
 		(uuid "8e704d17-912a-41e0-8827-38f7a58b3473")
