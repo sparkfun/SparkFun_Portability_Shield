@@ -357,12 +357,11 @@ not_in_nav: |
 
 # Configures webpage navigation
 nav:
-  - Introduction: introduction.md
-  - Hardware: 
-    - Overview: hardware_overview.md
-    - Assembly: hardware_assembly.md
-  - Software: 
-    - Arduino: software_setup-arduino.md
+  - Hookup Guide: 
+    - Introduction: introduction.md
+    - Hardware Overview: hardware_overview.md
+    - Hardware Assembly: hardware_assembly.md
+    - Software Setup: software_setup-arduino.md
     - Examples: arduino_example.md
   - Resources: resources.md
   - Support:

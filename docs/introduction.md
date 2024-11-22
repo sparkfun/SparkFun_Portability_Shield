@@ -12,11 +12,10 @@ icon: material/book-open-page-variant
     ---
 
     <figure markdown>
-    ![Product Thumbnail]()
+    ![Product Thumbnail](assets/img/27510-Portability-Shield-Feature.jpg)
     </figure></a>
     
 - A small board that adds a display, navigation, logging, and battery management.
-
 
 
 <center>
