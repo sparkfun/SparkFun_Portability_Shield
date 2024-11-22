@@ -32,14 +32,13 @@ To follow along with this tutorial, you will need the following materials. You m
     <tr>
         <td>
             <a href="https://www.sparkfun.com/products/27510">
-                <center><img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Portability Shield"></center>
+                <center><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/6/9/2/27510-Portability-Shield-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Portability Shield"></center>
                 <h3 class="title">SparkFun Portability Shield</h3>
             </a>
             DEV-27510
         </td>
     </tr>
 </table>
-
 
 ## Suggested Reading
 
