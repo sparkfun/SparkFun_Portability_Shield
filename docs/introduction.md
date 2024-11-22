@@ -37,8 +37,19 @@ To follow along with this tutorial, you will need the following materials. You m
             </a>
             DEV-27510
         </td>
+        <td>
+            <a href="https://www.sparkfun.com/products/26916">
+                <center><img src="" style="width:140px; height:140px; object-fit:contain;" alt="RTK Postcard"></center>
+                <h3 class="title">SparkFun RTK Postcard</h3>
+            </a>
+            GPS-26916
+        </td>
     </tr>
 </table>
+
+
+
+
 
 ## Suggested Reading
 
@@ -46,17 +57,15 @@ Below are a few tutorials that may help users familiarize themselves with variou
 
 <div class="grid cards hide col-4" markdown align="center">
 
--   <a href="https://learn.sparkfun.com/tutorials/534">
+-   <a href="https://learn.sparkfun.com/tutorials/what-is-gps-rtk">
     <figure markdown>
-    ![Connectivity of the Internet of Things](https://cdn.sparkfun.com/assets/learn_tutorials/5/3/4/network-cables-494648_640.jpg)
+    ![What is GPS RTK](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/1/3/Location-Wandering-GPS-combined.jpg)
     </figure>
     </a>
-    <a href="https://learn.sparkfun.com/tutorials/534">**Connectivity of the Internet of Things**
+    <a href="https://learn.sparkfun.com/tutorials/what-is-gps-rtk">**What is GPS RTK**
     </a>
 
 </div>
-
-
 
 <!-- 
 <center>
