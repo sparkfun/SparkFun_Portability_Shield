@@ -1,11 +1,12 @@
 SparkFun Portability Shield
 ========================================
 
-[![SparkFun Portability Shield]()](https://www.sparkfun.com/products/19311)
+[![SparkFun Portability Shield](https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/6/9/2/27510-Portability-Shield-Feature.jpg)](https://www.sparkfun.com/products/27510)
 
 [*SparkFun Portability Shield (DEV-27510)*](https://www.sparkfun.com/products/27510)
 
 Head to the [Sparkfun Portability Shield Product Manual](http://docs.sparkfun.com/SparkFun_Portability_Shield/) for technical documentation.
+
 
 
 Repository Contents
