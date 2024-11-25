@@ -62,6 +62,13 @@ Below are a few tutorials that may help users familiarize themselves with variou
     </a>
     <a href="https://learn.sparkfun.com/tutorials/what-is-gps-rtk">**What is GPS RTK**
     </a>
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">
+    <figure markdown>
+    ![SparkFun RTK Product Manual](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/1/3/Location-Wandering-GPS-combined.jpg)
+    </figure>
+    </a>
+    <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">**SparkFun RTK Product Manual**
+    </a>
 
 </div>
 

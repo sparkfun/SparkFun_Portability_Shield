@@ -3,7 +3,7 @@ icon: material/cog
 ---
 
 ## OLED
-The 1.3" OLED is a small, monochrome, blue on black display with a 128 x 64 dot matrix panel and an 7-bit unshifted I<sup>2</sup>C address of 0x3D. To change the I<sup>2</sup>C address to 0x3C, cut the D/C jumper on the back of the board. For more information, refer to the [datasheet](https://cdn.sparkfun.com/assets/learn_tutorials/3/0/8/SSD1306.pdf).
+The 1.3" OLED is a small, monochrome, blue on black display with a 128 x 64 dot matrix panel and a 7-bit unshifted I<sup>2</sup>C address of 0x3D. To change the I<sup>2</sup>C address to 0x3C, cut the D/C jumper on the back of the board. For more information, refer to the [datasheet](https://cdn.sparkfun.com/assets/learn_tutorials/3/0/8/SSD1306.pdf).
 
 <figure markdown>
 [![1.3" OLED Screen](assets/img/27510-Portability-Shield_OLED.jpg){ width="75%" }](assets/img/27510-Portability-Shield_OLED.jpg "Click to enlarge")
@@ -13,20 +13,20 @@ The 1.3" OLED is a small, monochrome, blue on black display with a 128 x 64 dot 
 	
 
 
-## D-Pad
+## Navigation Switch
 
-The 5-Way D-Pad switch allows for navigation of the configuration modes and menus related to the RTK or other loaded software. 
+The Navigation Switch allows for navigation of the configuration modes and menus related to the RTK or other loaded software. 
 
 <figure markdown>
-[![DPad](assets/img/27510-Portability-Shield_DPad.jpg){ width="75%" }](assets/img/27510-Portability-Shield_DPad.jpg "Click to enlarge")
-<figcaption markdown>DPad</figcaption>
+[![Navigation Switch](assets/img/27510-Portability-Shield_DPad.jpg){ width="75%" }](assets/img/27510-Portability-Shield_DPad.jpg "Click to enlarge")
+<figcaption markdown>Navigation Switch</figcaption>
 </figure>
 
 
 
 ## GPIO Expander
 
-The TCA9554 GPIO Expander is used for I<sup>2</sup>C interfacing with the D-Pad Switch, 1.3" OLED display, and the fuel gauge. The 7-bit Unshifted Address is 0x18.
+The TCA9554 GPIO Expander is used for I<sup>2</sup>C interfacing with the Navigation Switch, 1.3" OLED display, the fuel gauge, and the SD Card Detect. Its 7-bit unshifted address is 0x20.
 
 <figure markdown>
 [![GPIO Expander](assets/img/27510-Portability-Shield_GPIOExpander.jpg){ width="75%" }](assets/img/27510-Portability-Shield_GPIOExpander.jpg "Click to enlarge")
@@ -65,7 +65,7 @@ How handy! There is an On/Off switch at the top of the board.
 
 ## Fuel Gauge
 
-The MAX17048 uses the Li+ battery-modeling algorithm ModelGauge™ to track the battery relative state-of-charge (SOC) continuously over widely varying charge and discharge conditions. This eliminates current-sense resistor and battery learn cycles required in traditional fuel gauges and allows for the most accurate battery percentage readings. It's 7-bit unshifted address is 0x36. For more information, you can refer to the [datasheet](https://cdn.sparkfun.com/assets/5/2/7/6/6/MAX17048-MAX17049.pdf). 
+The MAX17048 uses the Li+ battery-modeling algorithm ModelGauge™ to track the battery relative state-of-charge (SOC) continuously over widely varying charge and discharge conditions. This eliminates current-sense resistor and battery learn cycles required in traditional fuel gauges and allows for the most accurate battery percentage readings. Its 7-bit unshifted address is 0x36. For more information, you can refer to the [datasheet](https://cdn.sparkfun.com/assets/5/2/7/6/6/MAX17048-MAX17049.pdf). 
 
 <figure markdown>
 [![Fuel Gauge](assets/img/27510-Portability-Shield_FuelGauge.jpg){ width="75%" }](assets/img/27510-Portability-Shield_FuelGauge.jpg "Click to enlarge")
