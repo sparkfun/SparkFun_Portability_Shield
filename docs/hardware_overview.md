@@ -18,7 +18,7 @@ The 1.3" OLED is a small, monochrome, blue on black display with a 128 x 64 dot 
 The Navigation Switch allows for navigation of the configuration modes and menus related to the RTK or other loaded software. 
 
 <figure markdown>
-[![Navigation Switch](assets/img/27510-Portability-Shield_DPad.jpg){ width="75%" }](assets/img/27510-Portability-Shield_DPad.jpg "Click to enlarge")
+[![Navigation Switch](assets/img/27510-Portability-Shield_NavSwitch.jpg){ width="75%" }](assets/img/27510-Portability-Shield_NavSwitch.jpg "Click to enlarge")
 <figcaption markdown>Navigation Switch</figcaption>
 </figure>
 

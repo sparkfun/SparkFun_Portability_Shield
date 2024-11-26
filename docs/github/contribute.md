@@ -4,7 +4,7 @@ Spot an improvement opportunity? Feel free to contribute to our open-source desi
 ## :material-file-document-multiple:&nbsp;Improve our Documentation
 All of this documentation can be modified by you! Please help us make it better.
 
-* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Portability_Shield/tree/main/docs) of the [SparkFun Portability Shield repository](https://github.com/sparkfun/https://github.com/sparkfun/SparkFun_Portability_Shield/tree/main).
+* These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_Portability_Shield/tree/main/docs) of the [SparkFun Portability Shield repository](https://github.com/sparkfun/SparkFun_Portability_Shield/tree/main).
 
 <!-- ### :material-source-pull:&nbsp;Submit a Correction -->
 ### Submit a Correction
