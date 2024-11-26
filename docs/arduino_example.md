@@ -31,7 +31,7 @@ This file demonstrates the simple API of the SparkFun MAX17043 Arduino library.
 
 The code for this example can be found in the [Firmware](../Firmware/Example2_FuelGauge/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch: 
 
-One thing to note is that you will also need to install the SparkFun MAX1704x Fuel Gauge Arduino Library if you haven't already. You can click the link from within the code or you can download the zip from [the GitHub Repository](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library/archive/refs/heads/main.zip)
+You will also need to install the SparkFun MAX1704x Fuel Gauge Arduino Library if you haven't already. You can click the link from within the code or you can download the zip from [the GitHub Repository](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library/archive/refs/heads/main.zip)
 
 <figure markdown>
 [![SparkFun MAX1704x Fuel Gauge Arduino Library Install](assets/img/MAX17043LibraryInstall.png){ width="90%" }](assets/img/MAX17043LibraryInstall.png "Click to enlarge")
@@ -54,7 +54,7 @@ This example demonstrates how to display on the 1.3" OLED and read the fuel gaug
 
 The code for this example can be found in the [Firmware](../Firmware/Example3_Display/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch: 
 
-
+You will also need to install the SparkFun Qwiic OLED Arduino Library if you haven't already. You can click the link from within the code or you can download the zip from [the GitHub Repository](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library/archive/refs/heads/main.zip)
 
 
 Make sure you've selected the correct board and port in the Tools menu and then hit the upload button. Once the code has finished uploading, you should see the gauge's voltage and state-of-charge (SOC) readings, similar to the following: 
