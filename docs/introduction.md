@@ -15,7 +15,9 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](assets/img/27510-Portability-Shield-Feature.jpg)
     </figure></a>
     
-- A small board that adds a display, navigation, logging, and battery management.
+- The SparkFun Portability Shield adds all the user interface bits needed to take a SparkFun dev board into the field. A LiPo battery connector, charger, fuel gauge, and an on/off switch take care of your power needs. A friction-fit microSD connector allow for datalogging. The 1.3" OLED and a 5-way navigation switch allow for an excellent user interface. Locking 0.1" headers along the edge of the shield make it easier to solder male pins in place.
+
+    I<sup>2</sup>C is used to interface to the display, fuel gauge, and the 5 way navigation switch (GPIO expander PCA9554), SPI is used to communicate with the microSD card. The power switch uses an ideal diode (LM66200) to disconnect the battery from the system for a sleep current of approximately 4μA.
 
 
 <center>
@@ -39,15 +41,13 @@ To follow along with this tutorial, you will need the following materials. You m
         </td>
         <td>
             <a href="https://www.sparkfun.com/products/26916">
-                <center><img src="" style="width:140px; height:140px; object-fit:contain;" alt="RTK Postcard"></center>
+                <center><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/3/2/SparkFun_RTK_Postcard-angled.jpg" style="width:140px; height:140px; object-fit:contain;" alt="RTK Postcard"></center>
                 <h3 class="title">SparkFun RTK Postcard</h3>
             </a>
             GPS-26916
         </td>
     </tr>
 </table>
-
-
 
 
 
@@ -63,6 +63,13 @@ Below are a few tutorials that may help users familiarize themselves with variou
     </figure>
     </a>
     <a href="https://learn.sparkfun.com/tutorials/what-is-gps-rtk">**What is GPS RTK**
+    </a>
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">
+    <figure markdown>
+    ![SparkFun RTK Product Manual](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
+    </figure>
+    </a>
+    <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">**SparkFun RTK Product Manual**
     </a>
 
 </div>
