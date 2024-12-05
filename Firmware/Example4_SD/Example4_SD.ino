@@ -13,7 +13,7 @@
   Insert a microSD card into the socket. Cards up to 512GB should work.
   Open output window at 115200bps
 */
-#include "SdFat.h"
+#include "SdFat.h"  // Click here to get the library: http://librarymanager/All#SdFat_SDXC by Bill Greiman
 #include "sdios.h"
 
 int pin_spiSCK = 32;
