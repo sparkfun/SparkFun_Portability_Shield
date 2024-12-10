@@ -2,7 +2,7 @@
 icon: fontawesome/solid/screwdriver-wrench
 ---
 
-The Portability Shield has been designed to be usable with any compatible main board. Here it has shown plugged into the [RTK Postcard](https://www.sparkfun.com/products/26916).
+The Portability Shield has been designed to be usable with any compatible main board. Here we have soldered in headers and it is plugged into the [RTK Postcard](https://www.sparkfun.com/products/26916). Note that there is an antenna attached to the module, as well as a LiPo battery plugged into the JST port. 
 
 
 <figure markdown>

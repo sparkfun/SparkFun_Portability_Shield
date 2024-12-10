@@ -253,6 +253,9 @@ markdown_extensions:
   # Allows the use of admonition/call-out boxes
   - admonition
 
+  # Allows for collapsible admonitions
+  - pymdownx.details
+
   # Allows the use of Markdown syntax in HTML elements
   - md_in_html
 
@@ -362,7 +365,7 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
 #    - Software Setup: software_setup-arduino.md
-#    - Examples: arduino_example.md
+    - Arduino Examples: arduino_example.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md
