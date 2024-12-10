@@ -23,7 +23,7 @@ One thing to note is that you will also need to install the SparkFun I2C Expande
 
 
 
-Make sure you've selected the correct board (in this case, we are using the RTK Postcard) and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
+Make sure you've selected the correct board (in this case, you will need to use ESP32 Dev Module from espressif) and port in the Tools menu and then hit the upload button. Once the code has finished uploading, go ahead and open a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics). You should see something similar to the following. 
 
 <figure markdown>
 [![Arduino Example 1 Output](assets/img/Example1_Output.png){ width="90%" }](assets/img/Example1_Output.png "Click to enlarge")
