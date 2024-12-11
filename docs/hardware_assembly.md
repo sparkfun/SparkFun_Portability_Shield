@@ -6,7 +6,7 @@ The Portability Shield has been designed to be usable with any compatible main b
 
 
 <figure markdown>
-[![SparkFun Portability Shield and RTK Postcard](assets/img/27510-Portability-Shield-Action-square.jpg){ width="75%" }](assets/board_files/27510-Portability-Shield-Action-square.jpg "Click to enlarge")
+[![SparkFun Portability Shield and RTK Postcard](assets/img/27510-Portability-Shield-Action-1.jpg){ width="75%" }](assets/board_files/27510-Portability-Shield-Action-1.jpg "Click to enlarge")
 <figcaption markdown>SparkFun Portability Shield and RTK Postcard</figcaption>
 </figure>
 
