@@ -22,17 +22,10 @@
 
 SFE_PCA95XX io(PCA95XX_PCA9554); // Create an instance with the PCA9554 IC
 
-//Incorrect v02 wiring
-int gpioExpander_up = 3;
-int gpioExpander_down = 2;
-int gpioExpander_right = 0;
-int gpioExpander_left = 1;
-
-//Future
-//int gpioExpander_up = 0;
-//int gpioExpander_down = 1;
-//int gpioExpander_right = 2;
-//int gpioExpander_left = 3;
+int gpioExpander_up = 0;
+int gpioExpander_down = 1;
+int gpioExpander_right = 2;
+int gpioExpander_left = 3;
 int gpioExpander_center = 4;
 int gpioExpander_cardDetect = 5;
 
