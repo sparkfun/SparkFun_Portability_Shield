@@ -41,7 +41,7 @@ To follow along with this tutorial, you will need the following materials. You m
         </td>
         <td>
             <a href="https://www.sparkfun.com/products/26916">
-                <center><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/3/2/SparkFun_RTK_Postcard-angled.jpg" style="width:140px; height:140px; object-fit:contain;" alt="RTK Postcard"></center>
+                <center><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/8/0/3/2/26916-RTK-Postcard-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="RTK Postcard"></center>
                 <h3 class="title">SparkFun RTK Postcard</h3>
             </a>
             GPS-26916
