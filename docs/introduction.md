@@ -64,12 +64,12 @@ Below are a few tutorials that may help users familiarize themselves with variou
     </a>
     <a href="https://learn.sparkfun.com/tutorials/what-is-gps-rtk">**What is GPS RTK**
     </a>
--   <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/">
     <figure markdown>
-    ![SparkFun RTK Product Manual](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
+    ![SparkFun RTK Everywhere Product Manual](https://cdn.sparkfun.com/assets/learn_tutorials/2/1/8/8/SparkFun_RTK_Facet_-_Hookup_Guide_Preview.jpg)
     </figure>
     </a>
-    <a href="https://docs.sparkfun.com/SparkFun_RTK_Firmware/">**SparkFun RTK Product Manual**
+    <a href="https://docs.sparkfun.com/SparkFun_RTK_Everywhere_Firmware/">**SparkFun RTK Everywhere Product Manual**
     </a>
 
 </div>
