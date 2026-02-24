@@ -86,7 +86,7 @@ void loop()
     lastLipoCheck = millis();
     voltage = lipo.getVoltage();
     soc = lipo.getSOC();
-    
+
     Serial.print("Voltage: ");
     Serial.print(voltage);  // Print the battery voltage
     Serial.println(" V");

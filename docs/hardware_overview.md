@@ -15,7 +15,7 @@ The 1.3" OLED is a small, monochrome, blue on black display with a 128 x 64 dot 
 
 ## Navigation Switch
 
-The Navigation Switch allows for navigation of the configuration modes and menus related to the RTK or other loaded software. 
+The Navigation Switch allows for navigation of the configuration modes and menus related to the RTK or other loaded software.
 
 <figure markdown>
 [![Navigation Switch](assets/img/27510-Portability-Shield_NavSwitch.jpg){ width="75%" }](assets/img/27510-Portability-Shield_NavSwitch.jpg "Click to enlarge")
@@ -36,16 +36,16 @@ The TCA9554 GPIO Expander is used for I<sup>2</sup>C interfacing with the Naviga
 
 ## Power
 
-Power is provided by either the LiPo Battery or the 5V/GND pins. Maximum input to the board is 5V. 
+Power is provided by either the LiPo Battery or the 5V/GND pins. Maximum input to the board is 5V.
 
 <figure markdown>
 [![Battery Connector/Power Pins](./assets/img/27510-Portability-Shield_JSTandPins.jpg){ width="75%" }](./assets/img/27510-Portability-Shield_JSTandPins.jpg "Click to enlarge")
 <figcaption markdown>Battery Connector/Power Pins</figcaption>
 </figure>
 
-## Current Measurement 
+## Current Measurement
 
-There are two plated through holes available on the bottom of the board to measure current if desired. 
+There are two plated through holes available on the bottom of the board to measure current if desired.
 
 <figure markdown>
 [![Current Measurement PTHs](./assets/img/27510-Portability-Shield_Measure.jpg){ width="75%" }](./assets/img/27510-Portability-Shield_Measure.jpg "Click to enlarge")
@@ -54,7 +54,7 @@ There are two plated through holes available on the bottom of the board to measu
 
 ## On/Off Switch
 
-How handy! There is an On/Off switch at the top of the board. 
+How handy! There is an On/Off switch at the top of the board.
 
 <figure markdown>
 [![On/Off Switch](assets/img/27510-Portability-Shield_OnOffSwitch.jpg){ width="75%" }](assets/img/27510-Portability-Shield_OnOffSwitch.jpg "Click to enlarge")
@@ -65,7 +65,7 @@ How handy! There is an On/Off switch at the top of the board.
 
 ## Fuel Gauge
 
-The MAX17048 uses the Li+ battery-modeling algorithm ModelGauge™ to track the battery relative state-of-charge (SOC) continuously over widely varying charge and discharge conditions. This eliminates current-sense resistor and battery learn cycles required in traditional fuel gauges and allows for the most accurate battery percentage readings. Its 7-bit unshifted address is 0x36. For more information, you can refer to the [datasheet](https://cdn.sparkfun.com/assets/5/2/7/6/6/MAX17048-MAX17049.pdf). 
+The MAX17048 uses the Li+ battery-modeling algorithm ModelGauge™ to track the battery relative state-of-charge (SOC) continuously over widely varying charge and discharge conditions. This eliminates current-sense resistor and battery learn cycles required in traditional fuel gauges and allows for the most accurate battery percentage readings. Its 7-bit unshifted address is 0x36. For more information, you can refer to the [datasheet](https://cdn.sparkfun.com/assets/5/2/7/6/6/MAX17048-MAX17049.pdf).
 
 <figure markdown>
 [![Fuel Gauge](assets/img/27510-Portability-Shield_FuelGauge.jpg){ width="75%" }](assets/img/27510-Portability-Shield_FuelGauge.jpg "Click to enlarge")
@@ -74,21 +74,21 @@ The MAX17048 uses the Li+ battery-modeling algorithm ModelGauge™ to track the 
 
 ## LiPo Charging Circuit
 
-The charge circuit charges Li+ batteries at 500mA. The equation below shows our calculation for this rate. 
+The charge circuit charges Li+ batteries at 500mA. The equation below shows our calculation for this rate.
 
 
 <figure markdown>
-[![Charge Circuit Equation](assets/img/ChargeEqn.png){ width="75%" }](assets/img/ChargeEqn.png "Click to enlarge")
+[![Charge Circuit Equation](assets/img/ChargeEqn.png){ width="75%" style="background-color: rgba(255, 255, 255, 0.85); padding: 5px;" }](assets/img/ChargeEqn.png "Click to enlarge")
 <figcaption markdown>Charge Circuit</figcaption>
 </figure>
 
 
 ## MicroSD Card
 
-The microSD Socket Friction Fit slot allows for data logging or easy upload of programming files. 
+The microSD Socket Friction Fit slot allows for data logging or easy upload of programming files.
 
 !!! warning
-	Do NOT drive the microSD card pins high if the card is not powered. Damage could occur! 
+	Do NOT drive the microSD card pins high if the card is not powered. Damage could occur!
 
 <figure markdown>
 [![microSD Card Slot](assets/img/27510-Portability-Shield_uSDCardSlot.jpg){ width="75%" }](assets/img/27510-Portability-Shield_uSDCardSlot.jpg "Click to enlarge")
@@ -108,9 +108,9 @@ The microSD Socket Friction Fit slot allows for data logging or easy upload of p
 
 ## Shield Connectors
 
-The offset PTHs allow for a snug fit when soldering headers to the board. Once male headers are soldered in, the SparkFun Portability Shield can be fit to the main board of choice. 
+The offset PTHs allow for a snug fit when soldering headers to the board. Once male headers are soldered in, the SparkFun Portability Shield can be fit to the main board of choice.
 
-If <b>5V</b> is present, LiPo charging commences. Below <b>5V</b>, the battery will provide VBATT to the mainboard 3.3V is not provided to mainboard - 5V/VBATT powers local 3.3V_P. 
+If <b>5V</b> is present, LiPo charging commences. Below <b>5V</b>, the battery will provide VBATT to the mainboard 3.3V is not provided to mainboard - 5V/VBATT powers local 3.3V_P.
 
 
 <figure markdown>
@@ -122,10 +122,10 @@ If <b>5V</b> is present, LiPo charging commences. Below <b>5V</b>, the battery w
 
 
 * <b>CHG:</b>
-    Cutting this jumper will disconnect the power to the CHG LED on the front of the board. 
+    Cutting this jumper will disconnect the power to the CHG LED on the front of the board.
 
 * <b>PWR:</b>
-    Cutting this jumper will disconnect the power to the PWR LED on the front of the board. 
+    Cutting this jumper will disconnect the power to the PWR LED on the front of the board.
 
 * <b>D/C:</b>
     Cutting this jumper will change the I<sup>2</sup>C address from 0x3D to 0x3C.
