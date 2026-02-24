@@ -154,6 +154,9 @@ plugins:
 
   # Enables improved security for external links
   - privacy:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       # Disables cache mechanism, so that external assets can be updated during rebuilds
       cache: false
 
@@ -165,31 +168,55 @@ plugins:
       assets_include:
         - https://docs.sparkfun.com/*
 
+      # assets_fetch_dir: /docs
+
       # External links open in a new tab
       links_attr_map:
         target: _blank
       links_noopener: true
-                
+
+  # Optimizes media files (*.png and *.jpg)
+  - optimize:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
+      # Specify directory; otherwise, multiple instances are created (.cache/plugins and .cache/plugin)
+      cache_dir: .cache/plugins/optimize
+
+      # Default values (from auto-complete)
+      # ------------------------------
+      # enabled: true
+      # cache: true
+      # cache_dir: .cache/plugins/optimize
+      # optimize_png: true
+      # optimize_png_speed: 4
+      # optimize_png_strip: true
+      # optimize_jpg: true
+      # optimize_jpg_quality: 60
+      # optimize_jpg_progressive: true
+      # print_gain: true
+      # print_gain_summary: true
+
   # Add revision date
   - git-revision-date-localized:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       enable_creation_date: true
       type: timeago
-  # Add git committers at the bottom of the page
+
+  # Add git committers at bottom of the page
   - git-committers:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
+
       repository: sparkfun/SparkFun_Portability_Shield
       branch: main
-  # Add git authors at the bottom of the page
-  - git-authors
+
   # Enables use of Git submodules and larger code base
-  - monorepo
-  # # For PDF rendering
-  # - with-pdf:
-  #     author: SparkFun Electronics&#174;
-  #     copyright: Copyright 2023 - SparkFun Electronics&#174;
-  #     cover_subtitle: none
-  #     cover_logo: assets/img/sfe_logo_sm.png
-  #     exclude_pages: [ "hard_copy", "single_page", "github/file_issue", "github/contribute" ]
-  #     output_path: assets/board_files/hookup_guide.pdf
+  - monorepo:
+      # Disables plugin on local builds
+      enabled: !ENV [CI, false]
 
 
 
@@ -275,7 +302,7 @@ markdown_extensions:
   # Allows the use of bundled and custom icons and emojis
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
@@ -342,10 +369,17 @@ extra_css:
 
 # Enables support for rendering block and inline block equations through MathJax
 extra_javascript:
-  # Enables support for rendering block and inline block equations through MathJax
+  # Enables support for MathJax
   - javascript/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+  # Enables support for KaTeX
+  # Leave disabled - causes issue when listing prices
+  # - javascript/katex.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
 
 
 # Configures webpage navigation
