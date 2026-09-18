@@ -9,7 +9,7 @@ This example demonstrates how to use the navigation switch and detect if the SD 
 The code for this example can be found in the [Firmware](../Firmware/Example1_NavigationSwitch/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch:
 
 ??? "Example 1 Arduino Code"
-	```c++
+	```cpp
 	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_Portability_Shield/refs/heads/main/Firmware/Example1_NavigationSwitch/Example1_NavigationSwitch.ino"
 	```
 
@@ -37,7 +37,7 @@ This file demonstrates the simple API of the SparkFun MAX17043 Arduino library. 
 The code for this example can be found in the [Firmware](../Firmware/Example2_FuelGauge/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch:
 
 ??? "Example 2 Arduino Code"
-    ```c++
+    ```cpp
     --8<-- "https://github.com/sparkfun/SparkFun_Portability_Shield/raw/refs/heads/main/Firmware/Example2_FuelGauge/Example2_FuelGauge.ino"
     ```
 
@@ -66,7 +66,7 @@ This example demonstrates how to display on the 1.3" OLED and read the fuel gaug
 The code for this example can be found in the [Firmware](../Firmware/Example3_Display/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch:
 
 ??? "Example 3 Arduino Code"
-	```c++
+	```cpp
 	--8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_Portability_Shield/refs/heads/main/Firmware/Example3_Display/Example3_Display.ino"
 	```
 
@@ -94,7 +94,7 @@ Go ahead and connect the Portability Shield to the RTK Postcard or other control
 The code for this example can be found in the [Firmware](../Firmware/Example4_SD/) folder of this repository. Alternatively, you can expand the link below and copy and paste the code into a shiny new Arduino sketch:
 
 ??? "Example 4 Arduino Code"
-	```c++
+	```cpp
 	--8<-- "https://github.com/sparkfun/SparkFun_Portability_Shield/raw/refs/heads/main/Firmware/Example4_SD/Example4_SD.ino"
 	```
 
